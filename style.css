@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Madimi+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#FFE6E6 ;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    color:#7469B6 ;
+    font-family:"Raleway", sans-serif ;
+    font-weight: 400;
+    font-size: larger;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    color: #AD88C6;
+    font-family: "Amatic SC", sans-serif;
+    font-size: large;
+}
+.container{
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,10vw);
+    grid-template-rows: repeat(3,10vw);
+    justify-content: center;
+}
+.box{
+    border: 2px solid #7469B6;
+    color: #7469B6;
+    font-size: 8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-family:"Raleway", sans-serif ;
+}
+.gameinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+    font-size: larger;
+    font-family:"Raleway", sans-serif ;
+    font-weight: 700;
+    color: #7469B6;
+}
+.btn{
+    display: flex;
+    padding-top: 15px;
+    justify-content: center;
+    
+}
+#reset{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    border-width:5px ;
+    border-color: #AD88C6;
+    background-color:#FFE6E6  ;
+}
+#reset:hover{
+    background-color:  #E1AFD1;
+}
+.box:hover{
+    background-color: #E1AFD1;
+}
+.bt-0{
+    border-top: 0;
+}
+.bb-0{
+    border-bottom: 0;
+}
+.bl-0{
+    border-left: 0;
+}
+.br-0{
+    border-right: 0;
+}
+img{
+    width: 0px;
+    transition: width 1s ease-in-out;
+}
